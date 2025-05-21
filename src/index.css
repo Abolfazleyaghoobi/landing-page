@@ -1,1 +1,8 @@
 @import "tailwindcss";
+@font-face {
+    font-family: sourGummy;
+    src: url("./assets/font/sourGummy.ttf") format("truetype");
+  }
+@theme {
+    --font-sourGummy: "sourGummy", sans-serif;
+  }

@@ -1,11 +1,8 @@
 import "./App.css";
+import Home from "./page/home/Home.jsx";
 
 function App() {
-  return (
-    <>
-      <h1 className="bg-red-200">Hello React!</h1>
-    </>
-  );
+  return (<Home/>);
 }
 
 export default App;
