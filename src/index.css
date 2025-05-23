@@ -6,3 +6,4 @@
 @theme {
     --font-sourGummy: "sourGummy", sans-serif;
   }
+  @custom-variant dark (&:where(.dark, .dark *));
