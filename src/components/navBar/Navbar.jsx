@@ -50,7 +50,7 @@ function Navbar() {
     <div className="flex items-center justify-between bg-gray-100  dark:bg-[#919191] mt-3 p-4 rounded-full ">
       {/* سمت چپ - لوگو */}
       <div className="flex-shrink-0 ps-1 ms-3">
-        <img src={logo} alt="Logo" className="w-22 mb-3" />
+        <img src={logo} alt="Logo" className="w-[80px] " />
       </div>
 
       {/* وسط - لینک‌ها و آیکون سرچ */}

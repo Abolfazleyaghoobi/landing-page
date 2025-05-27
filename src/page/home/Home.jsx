@@ -1,10 +1,11 @@
-import Navbar from "../../components/navBar/Navbar";
+import Header from "../../components/header/Header";
+import HowItWorksSection from "../../components/HowItWSComponents/HowItWorksSection";
 
 function Home() {
     return ( 
-     <div className="max-w-[1200px] mx-auto">
-      <Navbar/>
-      
+     <div className="container  mx-auto">
+      <Header/>
+      <HowItWorksSection/>
      </div>
      );
 }

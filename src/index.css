@@ -1,9 +1,19 @@
 @import "tailwindcss";
 @font-face {
-    font-family: sourGummy;
-    src: url("./assets/font/sourGummy.ttf") format("truetype");
-  }
+  font-family: sourGummy;
+  src: url("./assets/font/sourGummy.ttf") format("truetype");
+}
 @theme {
-    --font-sourGummy: "sourGummy", sans-serif;
-  }
-  @custom-variant dark (&:where(.dark, .dark *));
+  --color-gradient-header: 90deg, hsla(195, 43%, 84%, 1) 0%,
+    hsla(29, 83%, 86%, 1) 100%;
+    --color-gradient-header-darkMode:90deg,rgba(161, 66, 153, 1) 0%, rgba(171, 165, 84, 1) 100%;
+  --font-sourGummy: "sourGummy", sans-serif;
+  /* breakpoint */
+  --breakpoint-*: initial;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1400px;
+}
+@custom-variant dark (&:where(.dark, .dark *));
