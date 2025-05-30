@@ -12,6 +12,7 @@ dark:bg-linear-[var(--color-gradient-header-darkMode)] my-12 xxl:h-126 xl:h-110 
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque est nesciunt facilis quos, ducimus assumenda architecto expedita nemo autem rem velit et eos debitis voluptatibus, perspiciatis possimus incidunt esse eum.
             </p>
             <div className="mt-20 rounded-full overflow-hidden bg-white w-[360px] flex relative">
+          
               <input
                 className="bg-white p-3 w-[69%] focus:none outline-none"
                 type="email"
