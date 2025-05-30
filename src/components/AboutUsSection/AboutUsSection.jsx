@@ -2,7 +2,7 @@ import React from 'react';
 import AbouteImg from "../../assets/img/About.png"
 const AboutUsSection = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
+    <div className="flex flex-col items-center justify-center ">
       {/* Title Section */}
       <h1 className=" font-bold text-[45px] dark:text-gray-300 text-gray-900 text-center mb-12 leading-tight">
         We are a global, boutique real <br className="hidden sm:inline" /> estate brokerage

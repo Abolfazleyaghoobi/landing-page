@@ -3,7 +3,7 @@ function Footer() {
   return (
     <>
       <section className='bg-linear-[var(--color-gradient-header)] 
-dark:bg-linear-[var(--color-gradient-header-darkMode)] mb-12 xxl:h-126 xl:h-110 lg:h-95 rounded-[12px]'>
+dark:bg-linear-[var(--color-gradient-header-darkMode)] my-12 xxl:h-126 xl:h-110 lg:h-95 rounded-[12px]'>
 
         <div className='flex'>
           <div className='w-1/2 p-12 '>
