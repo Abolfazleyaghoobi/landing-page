@@ -15,8 +15,8 @@ lg:h-[470px]">
         <p className="mt-4">
             your will have everything nearby supermarket,buses,station,the carmen neighborhood, etc
         </p>
-        <div className="mt-4 rounded-full overflow-hidden bg-red-400 w-[380px] flex relative">
-            <input className="bg-white p-3 w-[75%] focus:none outline-none" type="email" name="" id="" />
+        <div className="mt-4 rounded-full overflow-hidden bg-white w-[360px] flex relative">
+            <input className="bg-white p-3 w-[69%] focus:none outline-none" type="email" name="" id="" />
            <div className="bg-black text-white rounded-full absolute  right-[0px] xl:top-[0px] lg:top-[-3px]">
            <button className="  p-3">Get a Quote</button>
            </div>
