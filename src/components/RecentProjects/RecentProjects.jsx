@@ -69,7 +69,7 @@ const RecentProjects = () => {
         spaceBetween={30}
        loop="true"
         modules={[Pagination]}
-        className="mySwiper"
+        className="mySwiper !py-4"
       >
         {projects.map((project, index) => (
             <SwiperSlide key=
